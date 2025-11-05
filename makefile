@@ -12,7 +12,7 @@ report:
 	Rscript -e "rmarkdown::render('report.Rmd', output_format='html_document')"
 
 test:
-	Rscript -e "library(cluster); library(ggplot2); library(plotly); library(rmarkdown); cat('✅ Environment ready\n')"
+	Rscript -e "library(cluster); library(ggplot2); library(plotly); library(rmarkdown)"
 
 clean:
 	rm -f *.png *.csv *.html
