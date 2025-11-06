@@ -69,7 +69,7 @@ for (R in max_radii) {
 p <- ggplot(results, aes(max_radius, estimated_clusters)) +
   geom_point() +
   geom_line() +
-  geom_hline(yintercept = 4, linetype = "dashed", color = "black") +
+  geom_hline(yintercept = 4, linetype = "dashed", color = "orange") +
   labs(
     x = "Max Radius",
     y = "Est. Clusters",
