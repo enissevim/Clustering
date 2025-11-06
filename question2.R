@@ -80,4 +80,4 @@ p <- ggplot(results, aes(max_radius, estimated_clusters)) +
 print(p)
 
 ggsave("question2_plot.png")
-write.csv(results, "question2_results.csv", row.names = FALSE)
+write.csv(results, "question2_results.csv")

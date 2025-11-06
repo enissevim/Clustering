@@ -2,13 +2,10 @@ Question 1:
 As dimensions start ti increase, the clusters can be slightly closer together before the gap statistic fails to identify them correctly. This happens because in higher dimensions, clusters have more "space" to spread out and remain distinguishable even with smaller side lengths. 
 However, once the side length drops below a certain threshold for each dimension, the clusters overlap too much, and the gap statistic consistently begins to underestimate the true number of clusters.
 
-dim   clusters   fails at
- 2       2          2
- 3       3          3
- 4       4          3
- 5       5         3.5
- 6       6         3.5
-
+dim: 2 3 4 5 6
+clusters: 2 3 4 5 6
+fails at: 2 3 3 3.5 3.5
+respectively
 
 Question 2:
 Failure Point Explanation:
