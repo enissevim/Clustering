@@ -74,8 +74,7 @@ p <- ggplot(results, aes(max_radius, estimated_clusters)) +
     x = "Max Radius",
     y = "Est. Clusters",
     title = "Spectral Clustering"
-  ) +
-  theme_minimal()
+  )
 
 print(p)
 
