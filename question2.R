@@ -72,8 +72,7 @@ p <- ggplot(results, aes(max_radius, estimated_clusters)) +
   geom_hline(yintercept = 4, linetype = "dashed", color = "orange") +
   labs(
     x = "Max Radius",
-    y = "Est. Clusters",
-    title = "Spectral Clustering"
+    y = "Est. Clusters"
   )
 
 print(p)
